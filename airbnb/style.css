@@ -1,0 +1,319 @@
+/* Haut de la page. */
+* {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+} 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  body {
+  background-color: #edefed;
+  z-index: -1;ly: 'Roboto', Helvetica, Arial, sans-serif;
+
+  }
+
+ header {
+    background-color: transparent;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+  }
+
+ 
+
+/* navigateur */
+
+ nav {
+    display: inline;
+    color: #fff;
+    z-index: 1;
+  }
+
+nav ul {
+    display: inline;
+    float: right;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 40px;
+  }
+
+  nav li:nth-child(4) {
+    margin-right: 20px;
+  }
+
+ /* logo */
+
+nav img
+{
+  width:  100px;
+
+}
+
+/* bouton devenez hôte */
+
+ .btn-devenir-hote {
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 4px 12px;
+    display: inline;
+    cursor: pointer;
+  }
+
+/* vidéo */
+
+video {
+    top: 0;
+    margin: 0;
+    position: absolute;
+    display: inline;
+    width: 100%;
+    height: 859px; /* taille adapté à l'ordinateur de la formation sous linux */
+    z-index: -1;
+  }
+
+/* barre de recherche */
+
+.separateur{
+    display: inline;
+    margin: 0;
+    position: absolute;
+    background-color: #edefed;
+    z-index: 1;
+    width: 100%;
+    height: 115px;
+    margin-top: 100vh;
+  }
+
+.search {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: calc(100vh - 100px);
+    z-index: 1;
+  }
+
+  .search-inputs {
+    margin-left: 25%;
+  }
+
+  input, .date-inputs > i, .guests-i, .btn-search {
+    margin: 0;
+    margin-top: 2.5%;
+    display: inline;
+    height: 25px;
+    font-size: 15px;
+    padding: 7px 12px;
+    border: none;
+    float: left;
+  } 
+  /* modifie les ligne Arrivé - départ au format calendrier sans JJ/MM/AAAA*/
+
+  input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+  }
+
+  input[type=date]:valid::before {
+    content: "" !important;
+  }
+
+  input[type=date]:invalid::-webkit-datetime-edit{
+    display: none;
+  }
+
+  input[type=date]::before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+  }
+/* barre recherche Ou? */
+
+ .where-i {
+    width: 250px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+/* barre de recherche Arrivé */
+
+.check-in-i {
+    border-left: 1px solid #c4c4c4;
+  }
+
+ .date-inputs {
+    display: inline;
+  }
+
+  .date-inputs > i {
+    background-color: #fff;
+    font-size: 20px;
+  }
+/* barre de recherche Départ */
+
+ .check-out-i {
+    border-right: 1px solid #c4c4c4;
+  }
+
+/* Bouton voyage */
+
+.guests-i {
+    background-color: #fff;
+    height: 39px;
+  }
+
+/* Bouton rechercher */
+
+.btn-search {
+    background-color: #ff5a5f;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 80px;
+    height: 22px;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+/* Survole de la souris */
+
+  .btn-search:hover {
+    background-color: #FD8084;
+  }
+
+/* contenu du premier block - header - title */
+
+ .play img{
+  position: relative;
+  height: 200px;
+  width: 300px;
+ }
+
+  .titre-container {
+    text-align: center;
+    color: #fff;
+    margin: 25vh 20vh;
+    z-index: 1;
+    line-height: 20px;
+  }
+
+  .titre-container h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+  }
+
+  .titre-container h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .titre-container i {
+    margin-top: 25px;
+    font-size: 120px;
+    color: #BFBFBF;
+    cursor: pointer;
+  }
+
+  .titre-container i:hover {
+    color: #fff;
+  }
+
+/* contenur 2ème block */
+
+.contenu-container {
+    position: relative;
+    width: 65%;
+    margin: auto 18%;
+    margin-top: 110vh;
+    z-index: 2;
+    color: #484848;
+  }
+
+  .hote-container {
+    background-color: #fff;
+    height: 344px;
+  }
+ /* image bloc 2 airbnb */
+
+  .hote-img img{
+    width: 580px;
+    height: 344px;
+  }
+
+  .hote-img {
+    width: 60%;
+    display: inline-block;
+  }
+/* texte début du 2ème bloc */
+
+  .hote-txt {
+    width: 28%;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+  }
+
+  .hote-titre h3 {
+    font-size: 26px;
+  }
+
+  .hote-titre p {
+    margin-bottom: 70px;
+  }
+
+  .hote-txt a {
+    padding: 10px 40px;
+    background-color: #007a87;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+
+  .ville-container {
+    margin-top: 50px;
+  }
+
+  .ville-titre {
+    text-align: center;
+  }
+
+  .ville-titre h3 {
+    font-size: 32px;
+    margin-bottom: -10px;
+  }
+
+  .ville-img {
+    width: 100%;
+    height: 344px;
+  }
+
+  .ville {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .ville h2 {
+    font-size: 32px;
+    padding-top: calc(50% - 32px);
+    color: #fff;
+  }
+/* image des villes */
+  .san {
+    background-image: url("https://a2.muscache.com/airbnb/guidebook/v1_san_francisco_saved@2x.jpg");
+  }
+
+  .ny {
+    background-image: url('https://a2.muscache.com/airbnb/guidebook/v1_new_york_saved@2x.jpg');
+  }
+
+  .londre {
+    background-image: url('https://a1.muscache.com/airbnb/guidebook/v1_london_saved@2x.jpg');
+  }
