@@ -1,0 +1,18 @@
+<header class="header">
+    <h1>
+        <a href=".."> Deck Builder Hearthstone</a>
+    </h1>
+</header>
+<section class="content">
+    <div class="heroes">
+        <h1>Choisissez votre Héros</h1>
+        <ul>
+            <li ng-repeat="hero in heroes">
+                <a href="{{hero.className}}">
+                    <img watch-load="watch-load" height="200" ng-src="{{hero.image}}" width="200"/>
+                    <span class="name">{{hero.className | capitalize}}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
