@@ -1,8 +1,5 @@
 {
-    "meta": {
-        "repository": "https://github.com/pdyck/hearthstone-db.git",
-        "contact": "dev.pdyck@gmail.com"
-    },
+
     "cards": [{
         "id": 8,
         "name": "Mind Control",
