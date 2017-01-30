@@ -1,0 +1,104 @@
+   * {
+       background-color: #B0E0E6;
+   }
+   
+   div {
+       background-color: white;
+   }
+   
+   strong {
+       background-color: white;
+   }
+   
+   em {
+       background-color: white;
+   }
+   
+   .page {
+       width: 700px;
+       margin: auto;
+       font-size: 16px;
+       font-family: sans-serif;
+       background-color: white;
+       border: 1px solid black;
+       border-radius: 2px;
+   }
+   
+   .page p {
+       margin-left: 5px;
+       margin-right: 5px;
+       background-color: white;
+   }
+   
+   .intro {
+       margin-top: 50px;
+       margin-bottom: 50px;
+       background-color: white;
+   }
+   
+   .center {
+       text-align: center;
+       background-color: white;
+       text-decoration: underline;
+   }
+   /*partie tête*/
+   
+   .tete {
+       height: 250px;
+       margin-bottom: -100px;
+       background-color: white;
+   }
+   
+   .infogauche {
+       float: left;
+       background-color: white;
+   }
+   
+   .infodroite {
+       float: right;
+       background-color: white;
+   }
+   /*partie générale CV*/
+   
+   .partie {
+       margin-bottom: 70px;
+       text-align: justify;
+       background-color: white;
+   }
+   
+   .part-gauche {
+       float: left;
+       font-weight: bold;
+       font-size: 16px;
+       margin-top: 2px;
+       background-color: white;
+   }
+   
+   .durée {
+       font-weight: normal;
+       font-size: 16px;
+       font-style: italic;
+       background-color: white;
+   }
+   
+   .part-droite {
+       margin-left: 150px;
+       margin-top: 37px;
+       background-color: white;
+   }
+   
+   #ecarta p {
+       margin-top: 20px;
+       margin-bottom: 30px;
+   }
+   
+   #ecartb p {
+       margin-top: 15px;
+       margin-bottom: 28px;
+   }
+   
+   h3 {
+       border-top: 3px solid black;
+       border-bottom: 3px solid black;
+       background-color: white;
+   }
